@@ -1,0 +1,116 @@
+body {
+  background-color: #1f1f1f;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #f8f8f8;
+  margin: 0;
+  padding: 20px;
+}
+
+.App {
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.title {
+  color: #ff714a;
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+}
+
+.quote {
+  font-style: italic;
+  color: #bbbbbb;
+  margin-bottom: 30px;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.controls input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  width: 180px;
+}
+
+.controls button {
+  padding: 10px 16px;
+  background-color: #00a58d;
+  border: none;
+  color: white;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.controls button:hover {
+  background-color: #008674;
+}
+
+.page-label {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #f1f1f1;
+}
+
+.dish-table {
+  margin: auto;
+  width: 100%;
+  max-width: 520px;
+  border-collapse: collapse;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.6);
+  background-color: #2b2b2b;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.dish-table th {
+  background-color: #111e26;
+  color: #ffffff;
+  padding: 12px;
+  text-align: left; 
+}
+
+.dish-table td {
+  padding: 12px;
+  color: #f0f0f0;
+  text-align: left; 
+  border-bottom: 1px solid #3a3a3a;
+}
+
+
+.dish-table tr:last-child td {
+  border-bottom: none;
+}
+
+.pagination {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.pagination button {
+  background-color: #ffbb00;
+  border: none;
+  padding: 10px 18px;
+  color: #1f1f1f;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.pagination button:hover {
+  background-color: #f0aa00;
+}
