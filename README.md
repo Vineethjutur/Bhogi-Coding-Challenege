@@ -60,7 +60,7 @@ Sample Endpoint: http://127.0.0.1:5003/dishes?userId=123&page=0
 
 ### 3. Frontend – React App
 ```
-cd ../dish_viewer
+cd dish_viewer
 npm install
 npm start
 ```
